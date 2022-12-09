@@ -1,0 +1,20 @@
+.allBody{
+    height: 90vh;
+    background: #c1c1c1;
+}
+#tablero {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 100%;
+}
+.b:nth-child(2n+2), .d:nth-child(2n+2), .f:nth-child(2n+2), .h:nth-child(2n+2), .a:nth-child(2n+1), .c:nth-child(2n+1), .e:nth-child(2n+1), .g:nth-child(2n+1){
+background-color: burlywood;
+}
+.b:nth-child(2n+1), .d:nth-child(2n+1), .f:nth-child(2n+1), .h:nth-child(2n+1), .a:nth-child(2n+2), .c:nth-child(2n+2), .e:nth-child(2n+2), .g:nth-child(2n+2){
+    background-color: #57886C;
+}
+.piece{
+    max-width: 80%;
+    margin: auto;
+    display: block;
+}
